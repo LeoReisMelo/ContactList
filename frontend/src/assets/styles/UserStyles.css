@@ -1,0 +1,42 @@
+input{
+    color: white!important;
+}
+
+.form_field{
+    font-family: inherit;
+    width: 80%;
+    border: 0;
+    border-bottom: 2px solid white;
+    outline: 0;
+    font-size: 1.3rem;
+    color: white!important;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+.buttonSubmit{
+    margin-top: 7%;
+    position: relative;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.buttonSubmit:hover{
+    background-color: black;
+    color: white;
+}
+.buttonDelete{
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+.buttonUpdate{
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
